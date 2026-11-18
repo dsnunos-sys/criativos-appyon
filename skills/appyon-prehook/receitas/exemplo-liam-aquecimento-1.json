@@ -1,0 +1,16 @@
+{
+ "prehook": {"receita": "prehook-liam.json"},
+ "takes": [
+  {"arquivo": "fala1a.mp4", "auto": true},
+  {"arquivo": "fala1b.mp4", "auto": true},
+  {"arquivo": "fala2.mp4", "auto": true, "audio": "fala2_limpo.wav"},
+  {"arquivo": "fala3.mp4", "auto": true},
+  {"arquivo": "fala4.mp4", "auto": true}
+ ],
+ "fala": {"rms": -23.0, "filtro": "highpass=f=80", "antes": 0.10, "depois": 0.18, "pausa_max": 0.30, "primeiro_antes": 0.25, "limiar": 0.3},
+ "transicao": {"apos_corte": 0.47, "sobe": 0.27, "segura": 0.06, "desce": 0.17},
+ "snap": {"arquivo": "snap_ref.wav", "ataque": 0.01, "pico": -21.5},
+ "musica": {"arquivo": "interstellar.mp3", "inicio": 22.68, "fator": 0.95, "entra": 1.22, "fade_in": 0.4, "ganho_db": -12},
+ "resolucao": [1080, 1920],
+ "saida": "liam-aquecimento-1.mp4"
+}

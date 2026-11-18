@@ -1,0 +1,17 @@
+{
+  "name": "criativos-appyon",
+  "owner": {"name": "Pedro Nunes", "url": "https://github.com/onunoszz-sudo"},
+  "plugins": [
+    {
+      "name": "criativos",
+      "source": {"source": "github", "repo": "onunoszz-sudo/criativos-base"},
+      "description": "Base de producao de criativos, comum a todos os negocios."
+    },
+    {
+      "name": "appyon",
+      "source": "./",
+      "description": "Metodo da Appyon: manual, prompts, pre-hook do carro, perfil da conta.",
+      "version": "0.1.0"
+    }
+  ]
+}
